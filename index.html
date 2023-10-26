@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR Code Component</title>
+  <style>
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: outfit;
+   }
+   body{
+    background-color: #d5e1ef;
+    
+   }
+   .main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    width: clamp(400px, 40%, 450px);
+    min-height: clamp(420px,40%,650px);
+    padding: 1rem;
+    border-radius: 20px;
+   }
+   img{
+    width: 100%;
+    height: 50%;
+    border-radius: 20px;
+   }
+   h1{
+    font-size: clamp(40px,40%,50px);
+    
+    margin-top: clamp(0.5rem,40%,0.9rem);
+    margin-bottom: clamp(0.5rem,40%,0.9rem);
+    text-align: center;
+   }
+   p{
+    font-size: clamp(18px,40%,20px);
+    text-align: center;
+    color: grey;
+   }
+  </style>
+</head>
+<body>
+  <div class="main">
+    <img src="./images/image-qr-code.png" alt="">
+    <h1>Scan the code </h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, similique?</p>
+  </div>
+</body>
+</html>
